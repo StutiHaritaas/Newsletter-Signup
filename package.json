@@ -1,10 +1,10 @@
 {
-  "name": "newsletter-signup",
+  "name": "Newsletter-Signup",
   "version": "1.0.0",
   "description": "Newsletter-Signup Project",
   "main": "app.js",
-  "scripts": {
-           "build": "echo \"No build specified\" && exit 1",
+        "scripts": {
+            "build": "echo \"No build specified\" && exit 1",
             "test": "echo \"No test specified\" && exit 1",
             "start": "node app.js"
         },
@@ -12,12 +12,19 @@
             "type": "git",
             "url": "git+https://github.com/StutiHaritaas/Newsletter-Signup.git"
        },
+       "author": "Stuti",
+       "license": "ISC",
+        "bugs": {
+            "url": "https://github.com/StutiHaritaas/Newsletter-Signup/issues"
+        },
+        
+        "dependencies": {
+          "body-parser": "^1.20.2",
+          "express": "^4.18.2",
+          "request": "^2.88.2"
+        },
+        "homepage": "https://github.com/StutiHaritaas/Newsletter-Signup#readme"
   
-  "author": "Stuti",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.20.2",
-    "express": "^4.18.2",
-    "request": "^2.88.2"
-  }
+
 }
+
