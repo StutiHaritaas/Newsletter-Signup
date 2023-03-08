@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Newsletter-Signup Project",
   "main": "app.js",
-  "scripts": {
-    "start": "node app.js"
-  },
+  
   "author": "Stuti",
   "license": "ISC",
   "dependencies": {
